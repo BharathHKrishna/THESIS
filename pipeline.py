@@ -59,7 +59,7 @@ class CampusConfig:
 class KITEnergyExtractor:
     """
     Complete energy feature extractor for KIT North Campus
-    Extracts ALL energy features and calculates comprehensive parameters
+    Extracts ALL energy features and calculates comprehensive parameter
     """
     
     def __init__(self, config: CampusConfig = None):

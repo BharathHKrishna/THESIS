@@ -17,6 +17,7 @@ dataset_/
 *.pkl
 *.csv
 *.txt
+*.geojson
 
 
 
