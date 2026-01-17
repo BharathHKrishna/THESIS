@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "power_generators",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25832" } },
-"features": [
-{ "type": "Feature", "properties": { "element": "way", "id": 405742818, "generator:method": "photovoltaic", "generator:output:electricity": "yes", "generator:place": "wall", "generator:source": "solar", "generator:type": "solar_photovoltaic_panel", "power": "generator" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 457554.626226125459652, 5429324.830364438705146 ], [ 457555.673110585485119, 5429324.989114485681057 ], [ 457560.3874483195832, 5429325.664556510746479 ], [ 457560.428429644845892, 5429325.286260820925236 ], [ 457554.68200101639377, 5429324.474189807660878 ], [ 457554.626226125459652, 5429324.830364438705146 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 405742825, "generator:method": "photovoltaic", "generator:output:electricity": "yes", "generator:place": "wall", "generator:source": "solar", "generator:type": "solar_photovoltaic_panel", "power": "generator" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 457551.756624792935327, 5429324.418744989670813 ], [ 457551.80508755199844, 5429324.06262625567615 ], [ 457546.051344324601814, 5429323.250620095059276 ], [ 457546.024647707352415, 5429323.584338120184839 ], [ 457551.068450944148935, 5429324.312837521545589 ], [ 457551.756624792935327, 5429324.418744989670813 ] ] ] } }
-]
-}
