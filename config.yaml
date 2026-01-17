@@ -1,0 +1,35 @@
+# Energy Feature Extraction Pipeline Configuration
+
+region:
+  name: "KIT_North_Campus"
+  bbox: [8.4080, 49.009, 8.430, 49.020]
+  epsg: 25832
+  description: "Karlsruhe Institute of Technology - North Campus"
+
+data_sources:
+  osm:
+    enabled: true
+    tags:
+      building: ["yes", "residential", "commercial", "industrial", "warehouse", "office", "school", "hospital"]
+      power: ["plant", "generator", "substation", "line", "cable", "tower"]
+      building:roof:shape: ["flat"]
+      generator:method: ["photovoltaic", "wind_turbine", "hydro"]
+  
+  copernicus:
+    enabled: false
+    note: "Set to true when you have local Copernicus data files"
+  
+  viirs:
+    enabled: false
+    note: "Set to true when you have local VIIRS data files"
+
+processing:
+  tile_size: 100  # meters
+  cache_enabled: true
+  parallel_processing: false
+
+output:
+  directory: "./output"
+  formats: ["png", "geojson", "csv", "json", "pkl"]
+  create_visualizations: true
+  save_interactive_map: false
